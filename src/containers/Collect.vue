@@ -1,0 +1,96 @@
+<template>
+	<div>
+		<pheader :headerData="headerTitle"></pheader>	
+		<scroller :on-refresh="refresh" ref="scroller" class="m_top">
+		<div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+			<div>sadsafsa</div>
+		</div>
+		</scroller>
+	</div>
+</template>
+
+<script>
+	import Pheader from 'components/Pheader'
+	export default{
+		data(){
+			return{
+				headerTitle:"收藏内容"
+			}
+		},
+		components:{
+			"pheader":Pheader
+		}
+	}
+</script>
+
+<style scoped="scoped" lang="less">
+	.m_top{
+		margin-top:50px;
+	}
+</style>
